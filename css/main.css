@@ -113,10 +113,20 @@ div#submit {
   font-weight: bold;
 }
 
+.shoe-box {
+  display: block;
+  margin: 0 auto;
+}
+
 .shoe-box:first-child {
   margin-top: 20px;
 }
 
 .shoe-box:last-child {
   margin-bottom: 25px;
+}
+
+.twerk {
+  display:block;
+  margin: 0 auto;
 }
