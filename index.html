@@ -3,15 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/csshake.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 <body>
 	<div id="wrapper">
 		<div id="header">
-				<h2>OMG SHOES!!1!</h2>
+				<h2 class="shake shake-constant">OMG SHOES!!1!</h2>
 		</div>
 		<div id="content-wrapper">
 			<div id="app">
@@ -28,15 +29,15 @@
 					Shoe name: <input type="text" name="shoe"><br>
 					Price: <input type="text" name="price"><br>
 					Store: <input type="text" name="store"><br>
-					<input type="submit" value="OMG!">
+					<input type="submit" value="OMG!" class="shake">
 				</form>
 			</div>
-
-
 		</div>
+	</div><!--wrapper-->
+
 		<div id="footer-wrapper">
 			<p>Github link</p>
 		</div>
-	</div>
+
 </body>
 </html>

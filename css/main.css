@@ -1,6 +1,7 @@
 html, body {
        height: 100%;
        font-family: Arial;
+       background-color: pink;
  }
  
 
@@ -15,21 +16,23 @@ div#wrapper {
        height: auto !important;
        height: 100%;
        margin: 0px 0px -41px 0px;
-       background-color: pink;
+       
  }
  
 
-div#footer_wrapper {
-       height: 41px;
-       background-color: blue;
- }
+
  
 
-div#content_wrapper {
+div#content-wrapper {
        padding: 0px 0px 41px 0px;
        
  }
 
+div#footer-wrapper {
+       height: 41px;
+       width: 100%;
+       background-color: white;
+ }
 
  div#header {
  	font-size: 3em;
@@ -71,3 +74,4 @@ div#form {
 	border: 5px white solid;
 	border-radius: 3px;
 }
+
