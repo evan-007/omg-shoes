@@ -1,6 +1,6 @@
 $(document).ready(function (){
 	$('.twerk i').on('mouseover', function(){
-		$('.shoe-box').toggleClass("shake shake-constant")
+		$('#shoe-box').toggleClass("shake shake-constant")
 		$('#form').toggleClass("shake shake-constant")
 		$('#app').toggleClass("shake shake-constant")
 	});
