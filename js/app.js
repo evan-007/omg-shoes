@@ -8,9 +8,6 @@ $(document).ready(function (){
 		var shoe = $(this).closest('#form').find('#shoe').val();
 		var price = $(this).closest('#form').find('#price').val();
 		var store = $(this).closest('#form').find('#store').val();
-		console.log(shoe)
-		console.log(price)
-		console.log(store)
 		var face = $('<div class="shoes">'+shoe+price+store+'</div>')
 		var shoes = $('<div class="shoes">'+
 			'<input type="checkbox" name="buy" class="check">'+
@@ -20,15 +17,13 @@ $(document).ready(function (){
 			'<div class="trash shake shake-horizontal"><i class="fa fa-trash-o"></i></div>'+
 			'</div>');
 		$("#shoe-box").append(shoes);
-	})
+	});
 
 	$('body').on("click", ".trash", function(){
 		$(this).closest('.shoes').fadeOut()
-		console.log('trash clicked')
 	});
 
 	$('body').on("click", '.check', function(){
 		$(this).closest('.shoes').fadeTo("slow", 0.5)
-		console.log('check')
 	});
 });
