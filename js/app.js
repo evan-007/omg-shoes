@@ -24,6 +24,6 @@ $(document).ready(function (){
 	});
 
 	$('body').on("click", '.check', function(){
-		$(this).closest('.shoes').fadeTo("slow", 0.5)
+		$(this).closest('.shoes').fadeTo("slow", this.checked ? 0.5 : 1)
 	});
 });
